@@ -24,11 +24,15 @@ button {
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s; transform: 0,3s ease;
     box-shadow: 0 4px 6px;
+    margin: 1%;
 }
 
 button:hover {
-    background-color: blue;
+    background-color: white;
+    color: white;
+    transform: translateY(-2px);
 }
+
 
 a {
     text-decoration: none;

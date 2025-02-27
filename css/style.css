@@ -3,46 +3,64 @@ body {
     background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
     background-repeat: no-repeat;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: rgb(13, 182, 162);
-    transition: transform 0.3s ease, color 0.3s ease;
+    color: #333;
+    text-align: center;
+    margin-top: 30px;
 }
+
+
 h1:hover {
     transform: scale(1.1); 
     color: rgb(58, 110, 240); 
 }
 
+
 .papu {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color:  rgba(249, 249, 249, 0.5);
+    max-width: 600px;
+    margin: 20px auto;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    align-items: center;
 }
 
-li {
-    margin: 15px;
-    border: 2px dashed blue;
-    width: 120px;
-    background-color: #f0f0f0;
-    padding: 8px;
-    
+.papu ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
 }
 
-a{
-    text-decoration: underline;
+.papu ul li {
+    margin: 2cqh 0;
+    text-align: center;
+}
+
+.papu ul li a {
+    text-decoration: none;
     color: black;
     font-weight: bold;
+    transition: color 0.3s ease;
+    text-shadow: 10px 1px 10px;
 }
 
-a:hover {
-    color: blue;
+.papu ul li a:hover {
+    color: #0056b3;
     text-decoration: none;
+    font-size: 18px;
 }
 
+@media (max-width: 600px) {
+    .papu {
+        padding: 10px;
+        margin: 10px;
+    }
+}

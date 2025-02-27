@@ -43,6 +43,12 @@ button {
     box-shadow: 0 4px 6px;
 }
 
+button:hover {
+    background-color: white;
+    color: white;
+    transform: translateY(-2px);
+}
+
 a {
     color:black;
     font-size: 20px;
