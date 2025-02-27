@@ -33,14 +33,16 @@ h1:hover {
     align-items: center;
 }
 
-ul li {
+ul {
     list-style-type: none;
     padding: 0;
     width: 100%;
+}
+
+ul li {
     margin: 20px;
     text-align: center;
 }
-
 
 a {
     text-decoration: none;
@@ -50,7 +52,7 @@ a {
     text-shadow: 10px 1px 10px;
 }
 
-ul li a:hover {
+.papu ul li a:hover {
     color: #0056b3;
     text-decoration: none;
     font-size: 18px;
